@@ -58,7 +58,7 @@ world.plot(algorithm="a\_star")  \# or "bfs"
 
 ## **Known limitations**
 
-Grid bounds are read from self.grid.shape, so the class works for any rectangular grid size, not hardcoded to 5x5.
-Only 4-directional movement (up/down/left/right) is supported, no diagonals.
-bfs() and a_star() both assume the goal is reachable; if it isn't, they currently return None rather than raising a clear error.
-Not optimized for large grids, priority queue can retain stale entries for already-improved cells (a common simplification in basic A\* implementations).
+- Grid bounds are read from self.grid.shape, so the class works for any rectangular grid size, not hardcoded to 5x5.
+- Only 4-directional movement (up/down/left/right) is supported, no diagonals.
+- bfs() and a_star() both assume the goal is reachable; if it isn't, they currently return None rather than raising a clear error.
+- Not optimized for large grids, priority queue can retain stale entries for already-improved cells (a common simplification in basic A\* implementations).
