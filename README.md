@@ -1,4 +1,5 @@
 # **GridWorld, 2D Path-Planning Simulator**
+<img src="A*_image2.png" alt="Example path" width="400">
 
 A small Python capstone project implementing two classic pathfinding algorithms, Breadth-First Search (BFS) and A\*, on a grid with obstacles. Built as part of a Python-fundamentals learning track, alongside training ACT (Action Chunking with Transformers) imitation-learning policies for robotic manipulation.
 
